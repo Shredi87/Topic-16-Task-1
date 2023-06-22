@@ -44,7 +44,6 @@ h1, h2, h3, h4, h5, h6, p {
     
 }
 
-
 .main {
     height: 333px;
 }
@@ -90,8 +89,6 @@ h1, h2, h3, h4, h5, h6, p {
             font-size: $small-text;
         }
     }
-        
-    
     
     &_login {
         font-size: $small-text;
@@ -119,8 +116,6 @@ h1, h2, h3, h4, h5, h6, p {
         transform: translate(-50%, -50%);
     }
 }
-
-
 
 .footer {
     background-color: $background;

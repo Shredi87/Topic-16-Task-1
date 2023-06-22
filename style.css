@@ -77,7 +77,8 @@ h1, h2, h3, h4, h5, h6, p {
 .footer {
   background-color: #FCDD6F;
   text-align: center;
-  height: 37px; }
+  height: 37px;
+  cursor: pointer; }
   .footer_wrapper {
     padding: 8px;
     display: flex;
