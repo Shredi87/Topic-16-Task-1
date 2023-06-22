@@ -2,6 +2,9 @@ const avatar = document.querySelectorAll('.user_avatar');
 const login = document.querySelectorAll('.user_nickname');
 const node = document.querySelectorAll('.user_location--text');
 const url = document.querySelectorAll('.user_login');
+const footer = document.querySelector('.footer');
+
+footer.addEventListener('click', getUsers);
 
 function getUsers() {
     const array = fetch('https://api.github.com/users')
